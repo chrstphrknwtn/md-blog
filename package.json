@@ -1,0 +1,24 @@
+{
+  "name": "secretlettuce.com",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "watch": "node bin/watch.js",
+    "build": "node bin/build.js"
+  },
+  "xo": {
+    "space": true
+  },
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "chokidar": "^3.4.0",
+    "clear-module": "^4.1.1",
+    "front-matter": "^4.0.2",
+    "fs-extra": "^9.0.1",
+    "live-server": "^1.2.1",
+    "marked": "^1.1.0",
+    "ragtag": "^0.0.7",
+    "xo": "^0.32.0"
+  }
+}

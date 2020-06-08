@@ -1,0 +1,98 @@
+@import "https://unpkg.com/modern-normalize@0.6.0/modern-normalize.css";
+
+:root {
+  --base-font-features: 'onum', 'pnum';
+  --font-foreground-color: #444;
+  --link-foreground-color: black;
+  --link-background-color: hsla(60, 100%, 50%, 0.25);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  font-size: 13px;
+  line-height: 1.57;
+  letter-spacing: 0.015em;
+}
+
+body {
+  padding-bottom: 6rem;
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 1rem;
+  font-feature-settings: var(--base-font-features);
+  color: var(--font-foreground-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  color: black;
+}
+
+p,
+ul,
+li {
+  color: var(--font-foreground-color);
+}
+
+blockquote {
+  padding-left: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 1.5rem;
+  font-style: italic;
+  border-left: 1px solid var(--font-foreground-color);
+}
+
+a {
+  color: var(--link-foreground-color);
+  text-decoration: none;
+  font-weight: bold;
+  background-color: var(--link-background-color);
+}
+
+.site-header,
+.site-content {
+  max-width: 38em;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.site-header {
+  padding-top: 2rem;
+}
+
+.site-header h1 {
+  margin-bottom: 0;
+}
+
+.site-content {
+  padding-top: 4rem;
+}
+
+.site-content img {
+  max-width: 100%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 3px;
+}
+
+.post-list {
+  list-style: none;
+  padding-left: 0;
+}
